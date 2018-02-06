@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 136037278009731292}
   m_Layer: 0
   m_Name: Patriots Player
-  m_TagString: Untagged
+  m_TagString: Patriot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

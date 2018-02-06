@@ -25,7 +25,7 @@ public class DefensiveBehavior : MonoBehaviour
     float dist;
     public float acceptableDistance;
 
-  
+    bool isGrounded;
 
     
 
@@ -37,6 +37,7 @@ public class DefensiveBehavior : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         targetRB = target.GetComponent<Rigidbody>();
+        isGrounded = true;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -52,13 +53,14 @@ public class DefensiveBehavior : MonoBehaviour
             }
         }
 
-        if (collision.collider.tag == "Offense" && collision.collider.transform.childCount == 4)
+        if (collision.collider.tag == "Eagle" && target.parent.tag == "Eagle" &&collision.collider.transform.childCount == 4)
         {
             target.transform.parent = null;
             targetRB.isKinematic = false;
             targetRB.useGravity = true;
-           
         }
+
+        
     }
     // Update is called once per frame
     void Update ()
