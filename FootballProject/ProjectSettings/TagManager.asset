@@ -5,7 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - ENDZONE DADDY
+<<<<<<< HEAD
   - enemy
+=======
+  - BallCarrier
+  - ENDZONE MOMMY
+  - Ball
+  - Offense
+  - Eagle
+  - Patriot
+>>>>>>> Levi
   layers:
   - Default
   - TransparentFX

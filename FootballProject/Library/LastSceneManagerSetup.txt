@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Zach/testing scene.unity
+=======
+- path: Assets/Scenes/USBankStadium.unity
+>>>>>>> Levi
   isLoaded: 1
   isActive: 1
