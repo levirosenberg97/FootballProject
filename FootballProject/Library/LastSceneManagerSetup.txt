@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/USBankStadium.unity
+- path: Assets/Scenes/USBankStadium.unity
   isLoaded: 1
   isActive: 1
