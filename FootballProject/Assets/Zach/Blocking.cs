@@ -5,18 +5,20 @@ using UnityEngine;
 public class Blocking : MonoBehaviour {
 
     Rigidbody rb;
-
+    ArriveBehavior ourArrive;
     Vector3 desiredVelocity;
     Vector3 futurePosition;
 
-    Rigidbody targetRB;
+    //Rigidbody targetRB;
+
+    bool isGrounded = false;
 
     public float futureDistance;
 
     public float speed;
     float currentSpeed;
 
-    public Transform target;
+   // public Transform target;
 
     float dist;
 
@@ -31,10 +33,24 @@ public class Blocking : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
+        ourArrive = GetComponent<ArriveBehavior>();
         currentSpeed = speed;
         rb = GetComponent<Rigidbody>();
 
-        targetRB = target.GetComponent<Rigidbody>();
+//targetRB = target.GetComponent<Rigidbody>();
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag == "enemy")
+        {
+            Rigidbody targetRB = collision.collider.GetComponent<Rigidbody>();
+            if(targetRB != null)
+            {
+                targetRB.AddForce(transform.forward * thrust);
+            }
+          
+        }
     }
 
     // Update is called once per frame
@@ -45,27 +61,8 @@ public class Blocking : MonoBehaviour {
         {
             if (guy.tag == "enemy")
             {
-                target = guy.transform;
+                ourArrive.target = guy.transform;
             }
         }
-
-        if (target != null)
-        {
-            dist = Vector3.Distance(transform.position, target.transform.position);
-            if (dist > acceptableDistance)
-            {
-                futurePosition = target.position + (targetRB.velocity * futureDistance);
-                desiredVelocity = -(speed * (futurePosition - transform.position).normalized);
-                rb.AddForce(desiredVelocity - rb.velocity);
-            }
-            else
-            {
-                speed = burstSpeed;
-                desiredVelocity = -(speed * (target.position - transform.position).normalized);
-                rb.AddForce(desiredVelocity - rb.velocity);
-            }
-        }
-
-        rb.AddForce(transform.forward * thrust);
     }
 }
