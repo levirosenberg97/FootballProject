@@ -42,7 +42,7 @@ public class Blocking : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.tag == "enemy")
+        if (collision.collider.tag == "Defense")
         {
             Rigidbody targetRB = collision.collider.GetComponent<Rigidbody>();
             if(targetRB != null)
@@ -59,7 +59,7 @@ public class Blocking : MonoBehaviour {
         Collider[] neighbours = Physics.OverlapSphere(transform.position, 3);
         foreach (Collider guy in neighbours)
         {
-            if (guy.tag == "enemy")
+            if (guy.tag == "Defense")
             {
                 ourArrive.target = guy.transform;
             }

@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 136532324114907388}
   m_Layer: 0
   m_Name: Eagles Player
-  m_TagString: Eagle
+  m_TagString: Offense
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

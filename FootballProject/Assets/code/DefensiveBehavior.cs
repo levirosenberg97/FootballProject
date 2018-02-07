@@ -53,7 +53,7 @@ public class DefensiveBehavior : MonoBehaviour
             }
         }
 
-        if (collision.collider.tag == "Eagle" && target.parent.tag == "Eagle" &&collision.collider.transform.childCount == 4)
+        if (collision.collider.tag == "Offense" && target.parent.tag == "Offense" &&collision.collider.transform.childCount == 4)
         {
             target.transform.parent = null;
             targetRB.isKinematic = false;

@@ -14,7 +14,8 @@ public class ArriveBehavior : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    private void Update()
+
+    public void arriveAtpoint()
     {
         Vector3 targetOnY = target.position;
         targetOnY.y = transform.position.y;
@@ -23,7 +24,12 @@ public class ArriveBehavior : MonoBehaviour
         float rampedSpeed = speed * (targetOffset.magnitude / dist);
         float clippedSpeed = Mathf.Min(rampedSpeed, speed);
         Vector3 desiredVelocity = (clippedSpeed / targetOffset.magnitude) * targetOffset;
-
+        desiredVelocity.y = 0;
         rb.AddForce(desiredVelocity - rb.velocity);
+    }
+
+    private void Update()
+    {
+       
     }
 }

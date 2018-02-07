@@ -26,20 +26,20 @@ public class EvadeBehavior : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+
         currentSpeed = speed;
         rb = GetComponent<Rigidbody>();
 
         targetRB = target.GetComponent<Rigidbody>();
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void getAway()
     {
-
         Collider[] neighbours = Physics.OverlapSphere(transform.position, 2);
         foreach (Collider guy in neighbours)
         {
-            if (guy.tag == "enemy")
+            if (guy.tag == "Defense")
             {
                 target = guy.transform;
             }
@@ -62,8 +62,12 @@ public class EvadeBehavior : MonoBehaviour
         }
 
 
-        Debug.DrawLine(transform.position, futurePosition, Color.red);
-        Debug.DrawLine(transform.position, target.position, Color.blue);
-        Debug.DrawLine(transform.position, desiredVelocity * 10, Color.green);
+    }
+
+
+    // Update is called once per frame
+    void Update()
+    {
+
     }
 }

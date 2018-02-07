@@ -84,10 +84,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CameraFollow.cs" />
+    <Compile Include="Assets\Coach.cs" />
     <Compile Include="Assets\code\DefensiveBehavior.cs" />
     <Compile Include="Assets\code\Scoring.cs" />
     <Compile Include="Assets\code\Timer.cs" />
+    <Compile Include="Assets\footballBehavior.cs" />
+    <Compile Include="Assets\Jersey.cs" />
+    <Compile Include="Assets\PatsScoring.cs" />
+    <Compile Include="Assets\resetPositions.cs" />
     <Compile Include="Assets\scoreManager.cs" />
+    <Compile Include="Assets\Zach\ArriveBehavior.cs" />
+    <Compile Include="Assets\Zach\basicChase.cs" />
+    <Compile Include="Assets\Zach\Blocking.cs" />
+    <Compile Include="Assets\Zach\EvadeBehavior.cs" />
+    <Compile Include="Assets\Zach\rotation.cs" />
+    <Compile Include="Assets\Zach\WanderBehavior.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

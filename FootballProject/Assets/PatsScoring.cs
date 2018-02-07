@@ -3,23 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-public class Scoring : MonoBehaviour
+public class PatsScoring : MonoBehaviour
 {
     bool hasBall;
     public float score;
     public scoreManager manager;
     public string endzone;
-    
+
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == endzone && hasBall == true)
+        if (other.tag == endzone && hasBall == true)
         {
-            manager.currentEaglesScore += score;
+            manager.currentPatsScore += score;
         }
 
-      
+
     }
 
 
@@ -34,6 +33,6 @@ public class Scoring : MonoBehaviour
             hasBall = false;
         }
 
-        
+
     }
 }
