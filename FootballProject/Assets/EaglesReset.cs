@@ -2,20 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class resetPositions : MonoBehaviour {
+public class EaglesReset : MonoBehaviour
+{
 
     Vector3 originalPos;
 
-	void Start ()
+    void Start()
     {
         originalPos = gameObject.transform.position;
-	}
-	
-	void OnTriggerEnter(Collider other)
+    }
+
+    void OnTriggerEnter(Collider other)
     {
-		if(other.gameObject.tag == "ENDZONE MOMMY")
+        if (other.gameObject.tag == "ENDZONE DADDY")
         {
             gameObject.transform.position = originalPos;
         }
-	}
+    }
 }
