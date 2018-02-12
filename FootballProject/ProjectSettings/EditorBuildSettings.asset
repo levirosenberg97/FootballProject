@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3a68a4c166b1dfa4e94a00730f22adf5
+  - enabled: 1
+    path: Assets/Scenes/USBankStadium.unity
+    guid: 8fd40f7020e1d5d4783b0d70e5029629

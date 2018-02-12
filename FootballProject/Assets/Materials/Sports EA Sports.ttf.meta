@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7b4074d430281de4c817573a78e81cea
+timeCreated: 1518031720
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sports EA Sports
+  fontNames:
+  - Sports EA Sports
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
