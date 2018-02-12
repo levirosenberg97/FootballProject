@@ -16,7 +16,11 @@ public class EaglesReset : MonoBehaviour
     {
         if (other.gameObject.tag == "ENDZONE DADDY")
         {
-            gameObject.transform.position = originalPos;
+            //gameObject.transform.position = originalPos;
+            if (gameObject.transform.parent.tag == "Eagle")
+            {
+                gameObject.transform.position = originalPos;
+            }
         }
     }
 }

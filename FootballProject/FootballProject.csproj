@@ -64,12 +64,6 @@
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Timeline">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Timeline.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -88,10 +82,12 @@
     <Compile Include="Assets\Coach.cs" />
     <Compile Include="Assets\code\DefensiveBehavior.cs" />
     <Compile Include="Assets\code\Scoring.cs" />
+    <Compile Include="Assets\code\TeamSelect.cs" />
     <Compile Include="Assets\code\Timer.cs" />
     <Compile Include="Assets\EaglesReset.cs" />
     <Compile Include="Assets\footballBehavior.cs" />
     <Compile Include="Assets\Jersey.cs" />
+    <Compile Include="Assets\OutsidetheMap.cs" />
     <Compile Include="Assets\PatsScoring.cs" />
     <Compile Include="Assets\resetPositions.cs" />
     <Compile Include="Assets\scoreManager.cs" />

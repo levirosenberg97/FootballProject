@@ -272,13 +272,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 10990066}
-  m_LocalRotation: {x: 0.18210477, y: 0.6832554, z: -0.18210477, w: 0.6832554}
-  m_LocalPosition: {x: -27.202112, y: 69.43671, z: 0.9977974}
-  m_LocalScale: {x: 4.3136897, y: 3.6610584, z: 2.886046}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -0.5, y: 41.7, z: -4.3}
+  m_LocalScale: {x: 2.54028, y: 0.80236, z: 0.6325}
   m_Children: []
-  m_Father: {fileID: 285376909}
+  m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 29.848001, y: 90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
 --- !u!1 &17248679 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1174873771844536, guid: 927f9d9ee3a9242479522743d7c1f0b3,
@@ -292,9 +292,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 17248679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e261ada508ef5dd4ea213d50c34eff5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &17248682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,6 +310,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE DADDY
+--- !u!114 &17248684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 17248679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &17248688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,8 +337,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 1043580776}
-  evadeTarget: {fileID: 201691231}
-  acceptableDistance: 6
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 4
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &20428558 stripped
 GameObject:
@@ -341,9 +354,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 20428558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e261ada508ef5dd4ea213d50c34eff5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &20428561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,6 +372,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE DADDY
+--- !u!114 &20428563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 20428558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &20428567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,8 +399,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 1043580776}
-  evadeTarget: {fileID: 201691231}
-  acceptableDistance: 6
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 4
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &74094448
 GameObject:
@@ -532,6 +558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &191388301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,13 +573,24 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE MOMMY
---- !u!114 &191388306
+--- !u!114 &191388302
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 191388297}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &191388306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 191388297}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2010aa5b64a3eb34e96d6852cb927c88, type: 3}
   m_Name: 
@@ -562,8 +600,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 2130478571}
-  evadeTarget: {fileID: 1822639390}
+  evadeTarget: {fileID: 0}
   acceptableDistance: 3
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &193776843
 GameObject:
@@ -643,7 +682,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4999008709729110, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.59999996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1174873771844536, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_Name
@@ -769,7 +808,7 @@ Transform:
   m_Children:
   - {fileID: 982263075}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &305398440
 MonoBehaviour:
@@ -782,8 +821,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f332b7bc0be35734f837526805400390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 900
+  time: 300
+  geneStarator: {fileID: 1163998409}
   timeText: {fileID: 301169336}
+--- !u!1 &329304728 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1159193110406376, guid: f77da5fd9e05263409db59d88466e02e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1152517815}
+--- !u!114 &329304733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 329304728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &347552555 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1174873771844536, guid: 927f9d9ee3a9242479522743d7c1f0b3,
@@ -797,9 +853,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 347552555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e261ada508ef5dd4ea213d50c34eff5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &347552558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -814,6 +871,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE DADDY
+--- !u!114 &347552560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 347552555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &347552564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -830,8 +898,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 1043580776}
-  evadeTarget: {fileID: 201691231}
-  acceptableDistance: 6
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 4
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &403605310 stripped
 GameObject:
@@ -846,9 +915,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 403605310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e261ada508ef5dd4ea213d50c34eff5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &403605313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,6 +933,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE DADDY
+--- !u!114 &403605315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 403605310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &403605319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -879,8 +960,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 1043580776}
-  evadeTarget: {fileID: 201691231}
-  acceptableDistance: 6
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 4
+  isGrounded: 0
   thrust: 2000
 --- !u!1001 &404495262
 Prefab:
@@ -966,9 +1048,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 431450378}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e261ada508ef5dd4ea213d50c34eff5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &431450381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -983,6 +1066,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE DADDY
+--- !u!114 &431450383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 431450378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &431450387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -999,8 +1093,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 1043580776}
-  evadeTarget: {fileID: 201691231}
-  acceptableDistance: 6
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 4
+  isGrounded: 0
   thrust: 2000
 --- !u!4 &434446210 stripped
 Transform:
@@ -1048,7 +1143,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4999008709729110, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.59999996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1174873771844536, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_Name
@@ -1083,6 +1178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &510074076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1097,6 +1193,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE MOMMY
+--- !u!114 &510074077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 510074072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &510074081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1113,8 +1220,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 2130478571}
-  evadeTarget: {fileID: 1822639390}
+  evadeTarget: {fileID: 0}
   acceptableDistance: 3
+  isGrounded: 0
   thrust: 2000
 --- !u!4 &525335401 stripped
 Transform:
@@ -1210,6 +1318,34 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 588572662}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &598190875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 598190876}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &598190876
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 598190875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.107, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &632318964 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1174873771844536, guid: 927f9d9ee3a9242479522743d7c1f0b3,
@@ -1223,9 +1359,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 632318964}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e261ada508ef5dd4ea213d50c34eff5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &632318967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1240,6 +1377,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE DADDY
+--- !u!114 &632318969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 632318964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &632318973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1256,8 +1404,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 1043580776}
-  evadeTarget: {fileID: 201691231}
-  acceptableDistance: 6
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 4
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &699561014 stripped
 GameObject:
@@ -1275,6 +1424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &699561018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1289,6 +1439,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE MOMMY
+--- !u!114 &699561019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 699561014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &699561023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1305,8 +1466,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 2130478571}
-  evadeTarget: {fileID: 1822639390}
+  evadeTarget: {fileID: 0}
   acceptableDistance: 3
+  isGrounded: 0
   thrust: 2000
 --- !u!1001 &737886033
 Prefab:
@@ -1415,7 +1577,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4999008709729110, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.59999996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1174873771844536, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_Name
@@ -1501,6 +1663,11 @@ Prefab:
       propertyPath: m_Constraints
       value: 80
       objectReference: {fileID: 0}
+    - target: {fileID: 23481730184008352, guid: 9e9f896ae6076374d8c4bcfc4f6ed904,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d6570ef51ab0bb14f9cd6fdf1f871c30, type: 2}
     m_RemovedComponents:
     - {fileID: 114908849941208238, guid: 9e9f896ae6076374d8c4bcfc4f6ed904, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 9e9f896ae6076374d8c4bcfc4f6ed904, type: 2}
@@ -1565,7 +1732,48 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &882681748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 882681750}
+  - component: {fileID: 882681749}
+  m_Layer: 0
+  m_Name: RespawnBox
+  m_TagString: DeathPit
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &882681749
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 882681748}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 663.48804, y: 6.644102, z: 547.6448}
+  m_Center: {x: -180.66895, y: 2.822051, z: 156.25117}
+--- !u!4 &882681750
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 882681748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 52.04026, y: -12.120889, z: 0.14890337}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &917654063
 Prefab:
@@ -1608,7 +1816,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4784102479631512, guid: 9e9f896ae6076374d8c4bcfc4f6ed904, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 1674157485179944, guid: 9e9f896ae6076374d8c4bcfc4f6ed904, type: 2}
       propertyPath: m_Name
@@ -1679,7 +1887,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4999008709729110, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.59999996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1174873771844536, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_Name
@@ -1771,11 +1979,11 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1817,6 +2025,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
+--- !u!114 &983606329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 983606325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &983606330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1847,8 +2067,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 2130478571}
-  evadeTarget: {fileID: 1822639390}
+  evadeTarget: {fileID: 0}
   acceptableDistance: 3
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &998724490 stripped
 GameObject:
@@ -1871,6 +2092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &998724495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1885,6 +2107,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE MOMMY
+--- !u!114 &998724496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 998724490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &998724500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1901,8 +2134,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 2130478571}
-  evadeTarget: {fileID: 1822639390}
+  evadeTarget: {fileID: 0}
   acceptableDistance: 3
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &1004635319 stripped
 GameObject:
@@ -1920,6 +2154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &1004635323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1934,6 +2169,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE MOMMY
+--- !u!114 &1004635324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1004635319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1004635328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1950,8 +2196,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 2130478571}
-  evadeTarget: {fileID: 1822639390}
+  evadeTarget: {fileID: 0}
   acceptableDistance: 3
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &1043580774
 GameObject:
@@ -1992,7 +2239,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1047661775 stripped
 GameObject:
@@ -2010,6 +2257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &1047661779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2024,6 +2272,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE MOMMY
+--- !u!114 &1047661780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1047661775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1047661784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2040,8 +2299,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 2130478571}
-  evadeTarget: {fileID: 1822639390}
+  evadeTarget: {fileID: 0}
   acceptableDistance: 3
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &1068061146 stripped
 GameObject:
@@ -2056,9 +2316,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1068061146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e261ada508ef5dd4ea213d50c34eff5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &1068061149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2073,6 +2334,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE DADDY
+--- !u!114 &1068061151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1068061146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1068061155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2089,8 +2361,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 1043580776}
-  evadeTarget: {fileID: 201691231}
-  acceptableDistance: 6
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 4
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &1091199827
 GameObject:
@@ -2206,7 +2479,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.8018149}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2.080017}
+  m_AnchoredPosition: {x: 0, y: -2.079956}
   m_SizeDelta: {x: 0, y: 4.2}
   m_Pivot: {x: 1.04, y: 0.5}
 --- !u!114 &1093575303
@@ -2476,9 +2749,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1163339495}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e261ada508ef5dd4ea213d50c34eff5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &1163339498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2493,6 +2767,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE DADDY
+--- !u!114 &1163339500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1163339495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1163339504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2509,8 +2794,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 1043580776}
-  evadeTarget: {fileID: 201691231}
-  acceptableDistance: 6
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 4
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &1163998407
 GameObject:
@@ -2545,8 +2831,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -94.03, y: 430.89}
+  m_SizeDelta: {x: 950.96, y: 218.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1163998409
 MonoBehaviour:
@@ -2730,10 +3016,10 @@ RectTransform:
   m_Father: {fileID: 1163998408}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.8018149}
-  m_AnchorMax: {x: 0.70220834, y: 1}
-  m_AnchoredPosition: {x: 0, y: 490}
-  m_SizeDelta: {x: 366.21918, y: 198.4214}
+  m_AnchorMin: {x: 0.6042063, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -2.300003, y: 0}
+  m_SizeDelta: {x: 2.5, y: 0.27000427}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1207451590
 MonoBehaviour:
@@ -2881,7 +3167,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4999008709729110, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.59999996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1174873771844536, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_Name
@@ -2899,6 +3185,48 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1241236832
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4413148459469272, guid: dd540501d841e8e458c6ff2d0deb2388, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 33.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413148459469272, guid: dd540501d841e8e458c6ff2d0deb2388, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.817
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413148459469272, guid: dd540501d841e8e458c6ff2d0deb2388, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 8.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413148459469272, guid: dd540501d841e8e458c6ff2d0deb2388, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413148459469272, guid: dd540501d841e8e458c6ff2d0deb2388, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413148459469272, guid: dd540501d841e8e458c6ff2d0deb2388, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413148459469272, guid: dd540501d841e8e458c6ff2d0deb2388, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413148459469272, guid: dd540501d841e8e458c6ff2d0deb2388, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: dd540501d841e8e458c6ff2d0deb2388, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1300387431
 GameObject:
@@ -2932,7 +3260,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.35020837, y: 0.8018149}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1.050003, y: 0}
+  m_AnchoredPosition: {x: 1.0499878, y: 0}
   m_SizeDelta: {x: -2.100006, y: 4.199997}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1300387433
@@ -3005,7 +3333,7 @@ Transform:
   - {fileID: 1367341463}
   - {fileID: 998724491}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1343991681
 MonoBehaviour:
@@ -3180,7 +3508,7 @@ Transform:
   m_GameObject: {fileID: 1580496285}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -27.54, y: -4.70554, z: 5}
-  m_LocalScale: {x: 0.59999996, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1661553045}
   - {fileID: 1722382418}
@@ -3202,6 +3530,7 @@ GameObject:
   - component: {fileID: 1580496288}
   - component: {fileID: 1580496294}
   - component: {fileID: 1580496286}
+  - component: {fileID: 1580496290}
   m_Layer: 0
   m_Name: Graham
   m_TagString: Offense
@@ -3217,9 +3546,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1580496285}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e261ada508ef5dd4ea213d50c34eff5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!136 &1580496287
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3264,6 +3594,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &1580496290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1580496285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1580496294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3280,8 +3621,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 1043580776}
-  evadeTarget: {fileID: 201691231}
-  acceptableDistance: 6
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 4
+  isGrounded: 0
   thrust: 2000
 --- !u!1001 &1580834307
 Prefab:
@@ -3324,7 +3666,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4999008709729110, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.59999996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1174873771844536, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_Name
@@ -3359,6 +3701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &1591047990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3373,6 +3716,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE MOMMY
+--- !u!114 &1591047991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1591047986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1591047995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3389,8 +3743,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 2130478571}
-  evadeTarget: {fileID: 1822639390}
+  evadeTarget: {fileID: 0}
   acceptableDistance: 3
+  isGrounded: 0
   thrust: 2000
 --- !u!1001 &1622155282
 Prefab:
@@ -3497,7 +3852,7 @@ Transform:
   - {fileID: 1196429660}
   - {fileID: 1135825384}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1636370226
 MonoBehaviour:
@@ -3675,9 +4030,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1733432302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e261ada508ef5dd4ea213d50c34eff5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &1733432305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3692,6 +4048,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE DADDY
+--- !u!114 &1733432307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1733432302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1733432311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3708,8 +4075,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 1043580776}
-  evadeTarget: {fileID: 201691231}
-  acceptableDistance: 6
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 4
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &1770164736 stripped
 GameObject:
@@ -3724,9 +4092,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1770164736}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e261ada508ef5dd4ea213d50c34eff5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &1770164739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3741,6 +4110,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE DADDY
+--- !u!114 &1770164741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1770164736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1770164745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3757,8 +4137,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 1043580776}
-  evadeTarget: {fileID: 201691231}
-  acceptableDistance: 6
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 4
+  isGrounded: 0
   thrust: 2000
 --- !u!4 &1822639390 stripped
 Transform:
@@ -3806,7 +4187,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4999008709729110, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.59999996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1174873771844536, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_Name
@@ -3841,6 +4222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &1826111138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3855,6 +4237,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE MOMMY
+--- !u!114 &1826111139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1826111134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1826111143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3871,8 +4264,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 2130478571}
-  evadeTarget: {fileID: 1822639390}
+  evadeTarget: {fileID: 0}
   acceptableDistance: 3
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &1834321065
 GameObject:
@@ -3948,7 +4342,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1834321065}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3965,7 +4359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c0607f8278608a4092bfaac8d5b7401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 0.1
+  rotationSpeed: 0.05
 --- !u!4 &1951145417 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4999008709729110, guid: 927f9d9ee3a9242479522743d7c1f0b3,
@@ -3999,7 +4393,7 @@ Transform:
   - {fileID: 193776844}
   - {fileID: 588572663}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1996924794
 GameObject:
@@ -4031,10 +4425,10 @@ RectTransform:
   m_Father: {fileID: 1163998408}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.15100001, y: 0.8018149}
-  m_AnchorMax: {x: 0.35020837, y: 1}
-  m_AnchoredPosition: {x: -638.2799, y: 490}
-  m_SizeDelta: {x: 365.75922, y: 198.4214}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.34935418, y: 1}
+  m_AnchoredPosition: {x: -0.16000366, y: 0}
+  m_SizeDelta: {x: 2.9199982, y: 0.30000305}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1996924796
 MonoBehaviour:
@@ -4310,6 +4704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &2078883044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4324,6 +4719,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE MOMMY
+--- !u!114 &2078883045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2078883040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2078883049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4340,8 +4746,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 2130478571}
-  evadeTarget: {fileID: 1822639390}
+  evadeTarget: {fileID: 0}
   acceptableDistance: 3
+  isGrounded: 0
   thrust: 2000
 --- !u!1 &2122213446 stripped
 GameObject:
@@ -4359,6 +4766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AlRoker: {fileID: 1163998409}
 --- !u!114 &2122213450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4373,6 +4781,17 @@ MonoBehaviour:
   score: 7
   manager: {fileID: 1163998409}
   endzone: ENDZONE MOMMY
+--- !u!114 &2122213451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2122213446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2122213455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4389,8 +4808,9 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 285376909}
   offenseTarget: {fileID: 2130478571}
-  evadeTarget: {fileID: 1822639390}
+  evadeTarget: {fileID: 0}
   acceptableDistance: 3
+  isGrounded: 0
   thrust: 2000
 --- !u!1001 &2129952394
 Prefab:
@@ -4433,7 +4853,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4999008709729110, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.59999996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1174873771844536, guid: 927f9d9ee3a9242479522743d7c1f0b3, type: 2}
       propertyPath: m_Name
@@ -4491,5 +4911,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

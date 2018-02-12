@@ -30,7 +30,7 @@ public class footballBehavior : MonoBehaviour
     float dist;
     public float acceptableDistance;
 
-    bool isGrounded;
+    public bool isGrounded;
 
     ArriveBehavior ourArrive;
 
@@ -39,6 +39,7 @@ public class footballBehavior : MonoBehaviour
 
     void tagSwitch()
     {
+
         if (transform.childCount == 4)
         {
             transform.tag = "BallCarrier";
@@ -76,22 +77,25 @@ public class footballBehavior : MonoBehaviour
     {
         if (transform.tag == "Defense")
         {
-            if (collision.collider.tag == "Ball")
+            if (isGrounded == true)
             {
-                if (defenseTarget.transform.parent == null)
+                if (collision.collider.tag == "Ball")
                 {
-                    defenseTarget.transform.position = transform.position + new Vector3(.089f, 1.205f, -.089f);
-                    targetRB.isKinematic = true;
-                    targetRB.useGravity = false;
-                    defenseTarget.transform.parent = transform;
+                    if (defenseTarget.transform.parent == null)
+                    {
+                        defenseTarget.transform.position = transform.position + new Vector3(.089f, 1.205f, -.089f);
+                        targetRB.isKinematic = true;
+                        targetRB.useGravity = false;
+                        defenseTarget.transform.parent = transform;
+                    }
                 }
-            }
 
-            if (collision.collider.tag == "BallCarrier" && collision.collider.transform.childCount == 4)
-            {
-                defenseTarget.transform.parent = null;
-                targetRB.isKinematic = false;
-                targetRB.useGravity = true;
+                if (collision.collider.tag == "BallCarrier" && collision.collider.transform.childCount == 4)
+                {
+                    defenseTarget.transform.parent = null;
+                    targetRB.isKinematic = false;
+                    targetRB.useGravity = true;
+                }
             }
 
         }
@@ -105,6 +109,9 @@ public class footballBehavior : MonoBehaviour
                 if (targetRB != null)
                 {
                     targetRB.AddForce(transform.forward * thrust);
+                    targetRB.freezeRotation = false;
+
+
                 }
 
             }
@@ -174,6 +181,8 @@ public class footballBehavior : MonoBehaviour
                 }
             }
         }
+
+     
 
         if(transform.tag == "BallCarrier")
         {
