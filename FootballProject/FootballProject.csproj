@@ -84,7 +84,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ChangeScene.cs" />
     <Compile Include="Assets\code\DefensiveBehavior.cs" />
     <Compile Include="Assets\code\Scoring.cs" />
     <Compile Include="Assets\code\Timer.cs" />
