@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/USBankStadium.unity
     guid: 8fd40f7020e1d5d4783b0d70e5029629
   - enabled: 1
@@ -14,3 +15,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PatriotsWin.unity
     guid: cb46894a24d9e3442a1f2a984fd907ba
+=======
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3a68a4c166b1dfa4e94a00730f22adf5
+  - enabled: 1
+    path: Assets/Scenes/USBankStadium.unity
+    guid: 8fd40f7020e1d5d4783b0d70e5029629
+>>>>>>> Levi
