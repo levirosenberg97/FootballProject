@@ -9,15 +9,22 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_RootGameObject: {fileID: 1032734504915756}
   m_IsPrefabParent: 1
 --- !u!1 &1032734504915756
+=======
+  m_RootGameObject: {fileID: 1434170512118044}
+  m_IsPrefabParent: 1
+--- !u!1 &1434170512118044
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   - component: {fileID: 4042372381206936}
   - component: {fileID: 54592836807472102}
   - component: {fileID: 136532027444477142}
@@ -27,38 +34,71 @@ GameObject:
   - component: {fileID: 114912739664602500}
   m_Layer: 0
   m_Name: Ravens Player 1
+=======
+  - component: {fileID: 4745368614590802}
+  - component: {fileID: 54924989061338566}
+  - component: {fileID: 136530304614676292}
+  - component: {fileID: 114449769037370504}
+  - component: {fileID: 114477387554250988}
+  - component: {fileID: 114169636310281464}
+  - component: {fileID: 114724290136831028}
+  m_Layer: 0
+  m_Name: Ravens Player
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
   m_TagString: Defense
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
 --- !u!1 &1153421422226698
+=======
+--- !u!1 &1546948051501664
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   - component: {fileID: 4261359747800514}
   - component: {fileID: 33530385413259240}
   - component: {fileID: 23681347349318906}
   m_Layer: 0
   m_Name: Cube
+=======
+  - component: {fileID: 4842433314556572}
+  - component: {fileID: 33477257573385966}
+  - component: {fileID: 23635465880605382}
+  m_Layer: 0
+  m_Name: Cube (1)
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
 --- !u!1 &1363285184793462
+=======
+--- !u!1 &1615219107776050
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   - component: {fileID: 4720870639016198}
   - component: {fileID: 33162262900770756}
   - component: {fileID: 23981767322225556}
+=======
+  - component: {fileID: 4393650693397900}
+  - component: {fileID: 33967445486243772}
+  - component: {fileID: 23509199414590746}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -66,28 +106,45 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
 --- !u!1 &1565821908059766
+=======
+--- !u!1 &1761789960561200
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   - component: {fileID: 4319634920400920}
   - component: {fileID: 33040432888445746}
   - component: {fileID: 23989600580248922}
   m_Layer: 0
   m_Name: Cube (1)
+=======
+  - component: {fileID: 4605147820864584}
+  - component: {fileID: 33487004272006874}
+  - component: {fileID: 23267885912987904}
+  m_Layer: 0
+  m_Name: Cube (2)
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
 --- !u!4 &4042372381206936
+=======
+--- !u!4 &4393650693397900
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1032734504915756}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 33.81336, y: 1.22, z: 13.142431}
@@ -100,10 +157,35 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4261359747800514
+=======
+  m_GameObject: {fileID: 1615219107776050}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.015476543, y: -0.27775717, z: -0.08230823}
+  m_LocalScale: {x: 0.6, y: 0.731571, z: 0.7605105}
+  m_Children: []
+  m_Father: {fileID: 4745368614590802}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4605147820864584
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1761789960561200}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.03047625, y: 0.8024597, z: -0.09700006}
+  m_LocalScale: {x: 0.6, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 4745368614590802}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4745368614590802
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1153421422226698}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.015476543, y: -0.27775717, z: -0.08230823}
@@ -126,10 +208,25 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4720870639016198
+=======
+  m_GameObject: {fileID: 1434170512118044}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 33.534794, y: 0.762, z: 8.443209}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4393650693397900}
+  - {fileID: 4842433314556572}
+  - {fileID: 4605147820864584}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4842433314556572
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1363285184793462}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.03047625, y: 0.8024597, z: -0.09700006}
@@ -139,43 +236,26 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23681347349318906
+=======
+  m_GameObject: {fileID: 1546948051501664}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.015476543, y: 0.33245945, z: -0.08230823}
+  m_LocalScale: {x: 0.6, y: 1.5000029, z: 0.5000007}
+  m_Children: []
+  m_Father: {fileID: 4745368614590802}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!23 &23267885912987904
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1153421422226698}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 95260c5ab9dc7804fa13acdf7ad3d0a3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!23 &23981767322225556
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1363285184793462}
+=======
+  m_GameObject: {fileID: 1761789960561200}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -202,12 +282,64 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!23 &23989600580248922
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
+--- !u!23 &23981767322225556
+=======
+--- !u!23 &23509199414590746
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
+  m_GameObject: {fileID: 1363285184793462}
+=======
+  m_GameObject: {fileID: 1615219107776050}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
+  - {fileID: 2100000, guid: d6570ef51ab0bb14f9cd6fdf1f871c30, type: 2}
+=======
+  - {fileID: 2100000, guid: 95260c5ab9dc7804fa13acdf7ad3d0a3, type: 2}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
+--- !u!23 &23989600580248922
+=======
+--- !u!23 &23635465880605382
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1565821908059766}
+=======
+  m_GameObject: {fileID: 1546948051501664}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -234,33 +366,59 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
 --- !u!33 &33040432888445746
+=======
+--- !u!33 &33477257573385966
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1565821908059766}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &33162262900770756
+=======
+  m_GameObject: {fileID: 1546948051501664}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33487004272006874
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1363285184793462}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &33530385413259240
+=======
+  m_GameObject: {fileID: 1761789960561200}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33967445486243772
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1153421422226698}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &54592836807472102
+=======
+  m_GameObject: {fileID: 1615219107776050}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54924989061338566
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1032734504915756}
+=======
+  m_GameObject: {fileID: 1434170512118044}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -270,49 +428,85 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
 --- !u!114 &114588558298258038
+=======
+--- !u!114 &114169636310281464
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1032734504915756}
+=======
+  m_GameObject: {fileID: 1434170512118044}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
 --- !u!114 &114704263169015970
+=======
+--- !u!114 &114449769037370504
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1032734504915756}
+=======
+  m_GameObject: {fileID: 1434170512118044}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 15576a226aafc9044a337e9999f4c48b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   score: 7
   manager: {fileID: 0}
   endzone: ENDZONE MOMMY
 --- !u!114 &114762756013995466
+=======
+  AlRoker: {fileID: 0}
+--- !u!114 &114477387554250988
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1032734504915756}
+=======
+  m_GameObject: {fileID: 1434170512118044}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   AlRoker: {fileID: 0}
 --- !u!114 &114912739664602500
+=======
+  score: 7
+  manager: {fileID: 0}
+  endzone: ENDZONE MOMMY
+--- !u!114 &114724290136831028
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1032734504915756}
+=======
+  m_GameObject: {fileID: 1434170512118044}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2010aa5b64a3eb34e96d6852cb927c88, type: 3}
@@ -323,15 +517,27 @@ MonoBehaviour:
   burstSpeed: 30
   defenseTarget: {fileID: 0}
   offenseTarget: {fileID: 0}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   acceptableDistance: 3
   isGrounded: 0
   thrust: 2000
 --- !u!136 &136532027444477142
+=======
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 3
+  isGrounded: 0
+  thrust: 2000
+--- !u!136 &136530304614676292
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
 CapsuleCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Ravens Player 1.prefab
   m_GameObject: {fileID: 1032734504915756}
+=======
+  m_GameObject: {fileID: 1434170512118044}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Ravens Player.prefab
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1

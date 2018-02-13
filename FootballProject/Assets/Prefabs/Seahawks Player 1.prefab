@@ -9,18 +9,30 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_RootGameObject: {fileID: 1507186502920912}
   m_IsPrefabParent: 1
 --- !u!1 &1075224309864910
+=======
+  m_RootGameObject: {fileID: 1308699275925534}
+  m_IsPrefabParent: 1
+--- !u!1 &1262854668648778
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   - component: {fileID: 4523987263126216}
   - component: {fileID: 33966811656929434}
   - component: {fileID: 23598180498816142}
+=======
+  - component: {fileID: 4143733974892690}
+  - component: {fileID: 33462910496222216}
+  - component: {fileID: 23735447530981184}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -28,33 +40,57 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
 --- !u!1 &1086612905912038
+=======
+--- !u!1 &1308699275925534
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   - component: {fileID: 4479507739717904}
   - component: {fileID: 33007930548308484}
   - component: {fileID: 23958680189436846}
+=======
+  - component: {fileID: 4825526003685140}
+  - component: {fileID: 54945875124528602}
+  - component: {fileID: 136048058464068110}
+  - component: {fileID: 114018691421304456}
+  - component: {fileID: 114320403258965710}
+  - component: {fileID: 114339661209546122}
+  - component: {fileID: 114483836088017522}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
+  m_Name: Seahawks Player
+  m_TagString: Defense
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
 --- !u!1 &1134517789076674
+=======
+--- !u!1 &1691674041840614
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   - component: {fileID: 4002419084406890}
   - component: {fileID: 33183303808546546}
   - component: {fileID: 23952328361324272}
+=======
+  - component: {fileID: 4783882123341650}
+  - component: {fileID: 33533894401917602}
+  - component: {fileID: 23685460534946144}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -62,13 +98,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
 --- !u!1 &1507186502920912
+=======
+--- !u!1 &1986216347445140
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   - component: {fileID: 4640656636474410}
   - component: {fileID: 54611032177224866}
   - component: {fileID: 136495960487547364}
@@ -79,41 +120,89 @@ GameObject:
   m_Layer: 0
   m_Name: Seahawks Player 1
   m_TagString: Defense
+=======
+  - component: {fileID: 4807931933297834}
+  - component: {fileID: 33190288642743232}
+  - component: {fileID: 23013641866439666}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
 --- !u!4 &4002419084406890
+=======
+--- !u!4 &4143733974892690
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1134517789076674}
+=======
+  m_GameObject: {fileID: 1262854668648778}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.015476543, y: 0.33245945, z: -0.08230823}
   m_LocalScale: {x: 0.6, y: 1.5000029, z: 0.5000007}
   m_Children: []
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_Father: {fileID: 4640656636474410}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4479507739717904
+=======
+  m_Father: {fileID: 4825526003685140}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!4 &4783882123341650
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1691674041840614}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.03047625, y: 0.8024597, z: -0.09700006}
+  m_LocalScale: {x: 0.6, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 4825526003685140}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4807931933297834
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1086612905912038}
+=======
+  m_GameObject: {fileID: 1986216347445140}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.015476543, y: -0.27775717, z: -0.08230823}
   m_LocalScale: {x: 0.6, y: 0.731571, z: 0.7605105}
   m_Children: []
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_Father: {fileID: 4640656636474410}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4523987263126216
+=======
+  m_Father: {fileID: 4825526003685140}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4825526003685140
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1075224309864910}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.03047625, y: 0.8024597, z: -0.09700006}
@@ -139,11 +228,29 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23598180498816142
+=======
+  m_GameObject: {fileID: 1308699275925534}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 33.534794, y: 0.762, z: 8.443209}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4807931933297834}
+  - {fileID: 4143733974892690}
+  - {fileID: 4783882123341650}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23013641866439666
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1075224309864910}
+=======
+  m_GameObject: {fileID: 1986216347445140}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -151,7 +258,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 919f12f211e5dba43afb48e87f49ad69, type: 2}
+  - {fileID: 2100000, guid: 1cd617d73e4725a428f5cccde0675182, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -170,12 +277,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
 --- !u!23 &23952328361324272
+=======
+--- !u!23 &23685460534946144
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1134517789076674}
+=======
+  m_GameObject: {fileID: 1691674041840614}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -183,7 +298,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 1cd617d73e4725a428f5cccde0675182, type: 2}
+  - {fileID: 2100000, guid: d6570ef51ab0bb14f9cd6fdf1f871c30, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -202,12 +317,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
 --- !u!23 &23958680189436846
+=======
+--- !u!23 &23735447530981184
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1086612905912038}
+=======
+  m_GameObject: {fileID: 1262854668648778}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -234,33 +357,59 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
 --- !u!33 &33007930548308484
+=======
+--- !u!33 &33190288642743232
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1086612905912038}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &33183303808546546
+=======
+  m_GameObject: {fileID: 1986216347445140}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33462910496222216
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1134517789076674}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &33966811656929434
+=======
+  m_GameObject: {fileID: 1262854668648778}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33533894401917602
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1075224309864910}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &54611032177224866
+=======
+  m_GameObject: {fileID: 1691674041840614}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54945875124528602
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1507186502920912}
+=======
+  m_GameObject: {fileID: 1308699275925534}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -270,29 +419,46 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
 --- !u!114 &114231993037782138
+=======
+--- !u!114 &114018691421304456
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1507186502920912}
+=======
+  m_GameObject: {fileID: 1308699275925534}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6aee97a32483ce64d9a689b92032c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AlRoker: {fileID: 0}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
 --- !u!114 &114524562414435426
+=======
+--- !u!114 &114320403258965710
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1507186502920912}
+=======
+  m_GameObject: {fileID: 1308699275925534}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2010aa5b64a3eb34e96d6852cb927c88, type: 3}
+  m_Script: {fileID: 11500000, guid: 15576a226aafc9044a337e9999f4c48b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   futureDistance: 3
   speed: 25
   burstSpeed: 30
@@ -302,21 +468,36 @@ MonoBehaviour:
   isGrounded: 0
   thrust: 2000
 --- !u!114 &114846662040779178
+=======
+  score: 7
+  manager: {fileID: 0}
+  endzone: ENDZONE MOMMY
+--- !u!114 &114339661209546122
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1507186502920912}
+=======
+  m_GameObject: {fileID: 1308699275925534}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0bc987a848893a40b9f644457c3d0fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
 --- !u!114 &114926109219334504
+=======
+--- !u!114 &114483836088017522
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1507186502920912}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -327,11 +508,33 @@ MonoBehaviour:
   manager: {fileID: 0}
   endzone: ENDZONE MOMMY
 --- !u!136 &136495960487547364
+=======
+  m_GameObject: {fileID: 1308699275925534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2010aa5b64a3eb34e96d6852cb927c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  futureDistance: 3
+  speed: 25
+  burstSpeed: 30
+  defenseTarget: {fileID: 0}
+  offenseTarget: {fileID: 0}
+  evadeTarget: {fileID: 0}
+  acceptableDistance: 3
+  isGrounded: 0
+  thrust: 2000
+--- !u!136 &136048058464068110
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
 CapsuleCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:FootballProject/Assets/Prefabs/Seahawks Player 1.prefab
   m_GameObject: {fileID: 1507186502920912}
+=======
+  m_GameObject: {fileID: 1308699275925534}
+>>>>>>> dev:FootballProject/Assets/Prefabs/Seahawks Player.prefab
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1

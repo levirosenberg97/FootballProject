@@ -6,14 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    public float time;
+    float time;
     public scoreManager geneStarator;
     public Text timeText;
-	// Use this for initialization
-	
-	
-	// Update is called once per frame
-	void Update ()
+    // Use this for initialization
+    private void Start()
+    {
+        time = ChangeScene.time;
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
         time -= Time.deltaTime;
 

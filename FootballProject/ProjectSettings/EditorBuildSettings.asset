@@ -6,14 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: c7271b027be1f824ca29f7a0f5ec09e1
-  - enabled: 1
     path: Assets/Scenes/USBankStadium.unity
     guid: 8fd40f7020e1d5d4783b0d70e5029629
-  - enabled: 1
-    path: Assets/Scenes/EaglesWin.unity
-    guid: 92ed56f62c09296469a0b045de8a62d5
-  - enabled: 1
-    path: Assets/Scenes/PatriotsWin.unity
-    guid: cb46894a24d9e3442a1f2a984fd907ba
