@@ -789,6 +789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 305398439}
   - component: {fileID: 305398440}
+  - component: {fileID: 305398441}
   m_Layer: 0
   m_Name: GameUI
   m_TagString: Untagged
@@ -821,9 +822,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f332b7bc0be35734f837526805400390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 20
   geneStarator: {fileID: 1163998409}
   timeText: {fileID: 301169336}
+--- !u!114 &305398441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 305398438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c71600d703c821f48a2409f9fedd2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  team1: {fileID: 1202627501}
+  team2: {fileID: 1300387433}
 --- !u!1 &329304728 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1159193110406376, guid: f77da5fd9e05263409db59d88466e02e,
