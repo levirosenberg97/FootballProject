@@ -12,6 +12,7 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene(wool);
     }
 
+
     public void exitGame()
     {
         Application.Quit();
@@ -19,3 +20,4 @@ public class ChangeScene : MonoBehaviour
     }
 
 }
+ 
